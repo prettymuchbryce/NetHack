@@ -95,7 +95,7 @@
 #define is_male(ptr)		(((ptr)->mflags2 & M2_MALE) != 0L)
 #define is_female(ptr)		(((ptr)->mflags2 & M2_FEMALE) != 0L)
 #define is_neuter(ptr)		(((ptr)->mflags2 & M2_NEUTER) != 0L)
-#define is_wanderer(ptr)	(((ptr)->mflags2 & M2_WANDER) != 0L)
+#define is_wanderer(ptr)	(FALSE)
 #define always_hostile(ptr)	(((ptr)->mflags2 & M2_HOSTILE) != 0L)
 #define always_peaceful(ptr)	(((ptr)->mflags2 & M2_PEACEFUL) != 0L)
 #define race_hostile(ptr)	(((ptr)->mflags2 & urace.hatemask) != 0L)
